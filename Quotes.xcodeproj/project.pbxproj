@@ -15,8 +15,6 @@
 		2812C2261CC4EC650098B437 /* QuoteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2812C2251CC4EC650098B437 /* QuoteCell.swift */; };
 		285A79A31CC62E67000E45C0 /* QuoteViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 285A79A21CC62E67000E45C0 /* QuoteViewModel.swift */; };
 		285A79A51CC631D2000E45C0 /* Quote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 285A79A41CC631D2000E45C0 /* Quote.swift */; };
-		285A79AA1CC65E62000E45C0 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 285A79A91CC65E62000E45C0 /* README.md */; };
-		285A79AC1CC65E6B000E45C0 /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 285A79AB1CC65E6B000E45C0 /* LICENSE.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -161,7 +159,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				285A79AC1CC65E6B000E45C0 /* LICENSE.txt in Resources */,
 				2812C21E1CC4EB700098B437 /* LaunchScreen.storyboard in Resources */,
 				2812C21B1CC4EB700098B437 /* Assets.xcassets in Resources */,
 				2812C2191CC4EB700098B437 /* Main.storyboard in Resources */,
@@ -175,7 +172,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				285A79AA1CC65E62000E45C0 /* README.md in Sources */,
 				2812C2161CC4EB700098B437 /* ViewController.swift in Sources */,
 				2812C2141CC4EB700098B437 /* AppDelegate.swift in Sources */,
 				2812C2261CC4EC650098B437 /* QuoteCell.swift in Sources */,
@@ -297,6 +293,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = co.cwbrn.Quotes;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -308,6 +305,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = co.cwbrn.Quotes;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
